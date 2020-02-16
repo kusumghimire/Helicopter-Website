@@ -1,11 +1,11 @@
 <section>
   <nav class="navbar  navbar-expand-sm">
     <a class="navbar-brand" href="#">
-    <img class="navbar-img" src=".\img\helicopter.png" atl="anil chitrakar pic" title="anil chitrakar pic">
+    <img class="navbar-img" src=".\img\helicopter-icon.svg" atl="anil chitrakar pic" title="anil chitrakar pic">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"><i class="fas fa-home"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="navbar-list-2">
       <ul class="navbar-nav">
