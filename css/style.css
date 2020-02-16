@@ -34,7 +34,7 @@ body {
 
 .navbar-expand-lg #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
   background-color: #0264ab;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 8px 20px;
 }
 
@@ -66,12 +66,13 @@ body {
 }
 
 .banner {
-  height: 100vh;
+  height: 130vh;
   width: 100%;
+  position: relative;
 }
 
 .banner .banner-image {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-position: fixed;
 }
@@ -79,5 +80,35 @@ body {
 .banner .banner-image img {
   height: 100%;
   width: 100%;
+}
+
+.banner .shadow-img {
+  position: absolute;
+  top: 190px;
+  left: 100px;
+  height: 378px;
+  width: 644px;
+  box-shadow: -3px -1px 19px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px -1px 19px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px -1px 19px -1px rgba(0, 0, 0, 0.75);
+}
+
+.banner .shadow-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner .banner-contents {
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  width: auto;
+  color: white;
+}
+
+.banner .banner-contents h1 {
+  width: 71%;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,13 +1,40 @@
 .banner {
-  height: 100vh;
+  height: 130vh;
   width: 100%;
+  position: relative;
   .banner-image {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-position: fixed;
     img {
       height: 100%;
       width: 100%;
     }
+  }
+  .shadow-img {
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    height: 378px;
+    width: 644px;
+    box-shadow: -3px -1px 19px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -3px -1px 19px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px -1px 19px -1px rgba(0, 0, 0, 0.75);
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .banner-contents{
+    position: absolute;
+    top:300px;
+    left:600px;
+    width: auto;
+    color: white;
+   h1{
+     width:71% ;
+     text-transform: uppercase;
+     font-weight: 600;
+   }
   }
 }
