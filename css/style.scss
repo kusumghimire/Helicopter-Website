@@ -4,10 +4,10 @@ body{
   margin: 0;
 }
 @import "header";
-// @import "variables";
+@import "variable";
 // @import "fonts";
 // @import "mixin";
-// @import "banner";
+@import "banner";
 // @import "biography";
 // @import "workflow";
 // @import "featured";

@@ -1,24 +1,20 @@
 <section>
-  <nav class="navbar  navbar-expand-sm">
-    <a class="navbar-brand" href="#">
-    <img class="navbar-img" src=".\img\helicopter-icon.svg" atl="anil chitrakar pic" title="anil chitrakar pic">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"><i class="fas fa-home"></i></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar-list-2">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top py-3">
+    <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold"><img
+          src=".\img\helicopter-icon.svg"></a>
+      <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">About<span
+                class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">faq</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">inquire</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 </section>

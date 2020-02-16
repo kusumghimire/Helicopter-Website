@@ -1,5 +1,6 @@
-.navbar-expand-sm {
-  padding: 20px 50px;
+.navbar-expand-lg {
+  padding: 20px 80px;
+  background-color: transparent;
   .navbar-brand {
     width: 30px;
     height: auto;
@@ -8,7 +9,48 @@
       height: 100%;
     }
   }
-  #navbar-list-2{
+  #navbarSupportedContent{
     justify-content: flex-end;
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+          color: white;
+          font-size: 18px;
+          margin: 5px 20px;
+          &:hover{
+           background-color:#0264ab;
+           border-radius: 15px;
+           padding: 8px 20px;
+          }
+        }
+      }
+    }
   }
 }
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
