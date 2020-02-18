@@ -28,23 +28,35 @@
     <div class="row">
       <div class="col-md-4 ">
         <div class="about-icons">
-          <img src=".\img\helicopter-icon.svg">
+          <figure>
+            <img src=".\img\helicopter-icon.svg">
+          </figure>
           <span class="pic-title">Hours Logged</span>
           <span class="pic-number">520</span>
+        </div>
+        <div class="circle">
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="about-icons">
+          <figure>
+            <img src=".\img\team.svg">
+          </figure>
+          <span class="pic-title">Passenger Served</span>
+          <span class="pic-number">8000+</span>
+        </div>
+        <div class="circle">
         </div>
       </div>
       <div class="col-md-4">
         <div class="about-icons">
-          <img src=".\img\helicopter-icon.svg">
+          <figure>
+            <img src=".\img\helicopter-icon.svg">
+          </figure>
           <span class="pic-title">Hours Logged</span>
           <span class="pic-number">520</span>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="about-icons">
-          <img src=".\img\helicopter-icon.svg">
-          <span class="pic-title">Hours Logged</span>
-          <span class="pic-number">520</span>
+        <div class="circle">
         </div>
       </div>
     </div>
