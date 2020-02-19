@@ -10,19 +10,31 @@
         object-fit: contain;
       }
     }
-    .fleet-contents{
-      span{
+    .fleet-contents {
+      span {
         color: #6ca4cd;
       }
-   p{
-     width: 70%;
-     line-height: 28px;
-   }
-   hr{
-     height: 8px;
-     background: #0264ab;
-     border-radius: 5px 5px 0px 0px;
-   }
+      p {
+        width: 70%;
+        line-height: 28px;
+      }
+      hr {
+        height: 8px;
+        background: #0264ab;
+        border-radius: 5px 5px 0px 0px;
+        margin-bottom: 0;
+      }
+      .table-borderless {
+        background-color: white;
+        td {
+          text-align: center;
+        }
+      }
+      .fleet-search{
+        color: #65a0cb;
+        text-transform: capitalize;
+        margin-left: 100px;
+      }
     }
   }
 }

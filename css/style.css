@@ -3,6 +3,7 @@
 /* Using a url */
 body {
   margin: 0;
+  background-color: #fafafa;
 }
 
 .navbar-expand-lg {
@@ -301,5 +302,40 @@ body {
   height: 8px;
   background: #0264ab;
   border-radius: 5px 5px 0px 0px;
+  margin-bottom: 0;
+}
+
+.fleet-section .row .fleet-contents .table-borderless {
+  background-color: white;
+}
+
+.fleet-section .row .fleet-contents .table-borderless td {
+  text-align: center;
+}
+
+.fleet-section .row .fleet-contents .fleet-search {
+  color: #65a0cb;
+  text-transform: capitalize;
+  margin-left: 100px;
+}
+
+.expert-section {
+  margin: 60px auto;
+}
+
+.expert-section .row .expert .sub-title {
+  color: #65a0cb;
+}
+
+.expert-section .row .expert h1 {
+  text-transform: uppercase;
+}
+
+.expert-section .row .expert p {
+  line-height: 28px;
+}
+
+.expert-section .row .expert .tickets .title {
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
