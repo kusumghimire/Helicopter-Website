@@ -1,6 +1,28 @@
 .fleet-section {
   margin-top: 90px;
   .row {
-  
+    .banner {
+      height: 330px;
+      width: 100%;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .fleet-contents{
+      span{
+        color: #6ca4cd;
+      }
+   p{
+     width: 70%;
+     line-height: 28px;
+   }
+   hr{
+     height: 8px;
+     background: #0264ab;
+     border-radius: 5px 5px 0px 0px;
+   }
+    }
   }
 }

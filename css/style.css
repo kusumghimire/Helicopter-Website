@@ -275,4 +275,31 @@ body {
 .fleet-section {
   margin-top: 90px;
 }
+
+.fleet-section .row .banner {
+  height: 330px;
+  width: 100%;
+}
+
+.fleet-section .row .banner img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.fleet-section .row .fleet-contents span {
+  color: #6ca4cd;
+}
+
+.fleet-section .row .fleet-contents p {
+  width: 70%;
+  line-height: 28px;
+}
+
+.fleet-section .row .fleet-contents hr {
+  height: 8px;
+  background: #0264ab;
+  border-radius: 5px 5px 0px 0px;
+}
 /*# sourceMappingURL=style.css.map */
