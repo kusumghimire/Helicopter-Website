@@ -214,16 +214,61 @@ body {
 }
 
 .service-section {
-  height: 80vh;
+  position: relative;
+  height: 100vh;
   width: 100%;
   background-image: url("../img/section-img.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 
 .service-section h1 {
   color: white;
-  margin-top: 50px;
+  margin-top: 60px;
+}
+
+.service-section p {
+  color: white;
+}
+
+.service-section .service-gallery {
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+}
+
+.service-section .service-gallery .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service-section .service-gallery .row .service-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 230px;
+  background: gray;
+  width: 18%;
+  margin: auto 15px 0 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.service-section .service-gallery .row .service-img img {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.service-section .service-gallery .row .service-img img:hover {
+  -webkit-transform: scale(0.08);
+  transform: scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */

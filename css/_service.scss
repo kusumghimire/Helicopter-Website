@@ -1,12 +1,44 @@
 .service-section {
-  height: 80vh;
+  position: relative;
+  height: 100vh;
   width: 100%;
   background-image: url("../img/section-img.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: cover;
+  object-position: center center;
   h1 {
     color: white;
-    margin-top: 50px;
+    margin-top: 60px;
+  }
+  p {
+    color: white;
+  }
+  .service-gallery{
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    .row{
+      display: flex;
+      .service-img{
+        display: flex;
+        flex-wrap: wrap;
+        height: 230px;
+        background: gray;
+        width: 18%;
+        margin: auto 15px 0 0;
+        border-radius: 10px;
+        overflow: hidden;
+        img{
+          height: 100%;
+          width: 100%;
+          transition: 0.4s ease;
+              &:hover{
+                -webkit-transform: scale(0.08);
+                transform: scale(1.2);
+              }
+        }
+      }
+    }
   }
 }
