@@ -215,7 +215,7 @@ body {
 
 .service-section {
   position: relative;
-  height: 100vh;
+  height: 85vh;
   width: 100%;
   background-image: url("../img/section-img.png");
   background-repeat: no-repeat;
@@ -270,5 +270,9 @@ body {
 .service-section .service-gallery .row .service-img img:hover {
   -webkit-transform: scale(0.08);
   transform: scale(1.2);
+}
+
+.fleet-section {
+  margin-top: 90px;
 }
 /*# sourceMappingURL=style.css.map */
