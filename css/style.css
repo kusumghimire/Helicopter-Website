@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Exo|Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 @import url("story.css");
 /* Using a url */
 body {
   margin: 0;
   background-color: #fafafa;
+  font-family: "Josefin Sans";
 }
 
 .navbar-expand-lg {
@@ -12,7 +14,7 @@ body {
 }
 
 .navbar-expand-lg .navbar-brand {
-  width: 30px;
+  width: 45px;
   height: auto;
 }
 
