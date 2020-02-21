@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Exo|Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 @import url("story.css"); /* Using a url */
 body{
   margin: 0;
@@ -13,7 +14,7 @@ body{
 @import "service";
 @import "flight";
 @import "expert";
-// @import "footer";
+@import "footer";
 @import "partners";
 // @import "story-banner-img";
 // @import "story-venture";

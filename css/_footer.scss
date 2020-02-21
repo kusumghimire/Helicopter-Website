@@ -1,0 +1,29 @@
+footer {
+  background-color: #1d1d1d;
+  .section-footer {
+    padding: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    .footer-links {
+      nav {
+        margin: 30px auto;
+        ul {
+          display: flex;
+          li {
+            list-style: none;
+            margin-right: 30px;
+            text-transform: uppercase;
+            a {
+              color: #ffff;
+            }
+          }
+        }
+      }
+      .copyright{
+          color: white;
+      }
+
+
+    }
+  }
+}
