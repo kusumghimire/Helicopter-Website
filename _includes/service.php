@@ -20,30 +20,25 @@
       <div class="row">
         <div class="service-img">
           <img src="./img/img-1.png">
-          <span class="service-content"></span>
-        </div>
+          <span class="service-content">rescue and evac  uation</span>
+        </div> 
         <div class="service-img">
           <img src="./img/img-2.png">
-          <span class="service-content"></span>
+          <span class="service-content">sight seeing</span>
         </div>
         <div class=service-img>
           <img src="./img/holy-visit.png">
-          <span class="service-content"></span>
+          <span class="service-content">pilgrimage flights</span>
         </div>
         <div class="service-img">
           <img src="./img/skating.png">
-          <span class="service-content"></span>
+          <span class="service-content">hell ski</span>
         </div>
         <div class="service-img">
           <img src="./img/jungle.png">
-          <span class="service-content"></span>
+          <span class="service-content">aerial photography </span>
         </div>
-        <!-- <div class="service-img">
-          <figure>
-           <img src="./img/img-shadow.png">
-          </figure> 
-        </div> -->
       </div>
     </div>
-  </section> <!-- section gallery ends here -->
+  </section> <!-- section gallery end                                    s here -->
 </section><!-- section-section ends here -->
