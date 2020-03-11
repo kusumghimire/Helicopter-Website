@@ -9,7 +9,7 @@
     <h1> exceeding expectations around the world</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </p>
-    <span><i class="fas fa-arrow-right"></i>Read more</span>
+    <span><i class="fas fa-arrow-right"></i><i class="fas fa-angle-double-right"></i>Read more</span>
     <div class="vertical-navbar">
       <ul>
         <li class="text-transform">

@@ -20,18 +20,23 @@
       <div class="row">
         <div class="service-img">
           <img src="./img/img-1.png">
+          <span class="service-content"></span>
         </div>
         <div class="service-img">
           <img src="./img/img-2.png">
+          <span class="service-content"></span>
         </div>
         <div class=service-img>
           <img src="./img/holy-visit.png">
+          <span class="service-content"></span>
         </div>
         <div class="service-img">
           <img src="./img/skating.png">
+          <span class="service-content"></span>
         </div>
         <div class="service-img">
           <img src="./img/jungle.png">
+          <span class="service-content"></span>
         </div>
         <!-- <div class="service-img">
           <figure>

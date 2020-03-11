@@ -29,7 +29,7 @@
       <div class="col-md-4 ">
         <div class="about-icons">
           <figure>
-            <img src=".\img\helicopter-icon.svg">
+          <img src=".\img\team.svg">
           </figure>
           <span class="pic-title">Hours Logged</span>
           <span class="pic-number">520</span>
@@ -51,7 +51,7 @@
       <div class="col-md-4">
         <div class="about-icons">
           <figure>
-            <img src=".\img\helicopter-icon.svg">
+          <img src=".\img\team.svg">
           </figure>
           <span class="pic-title">Hours Logged</span>
           <span class="pic-number">520</span>
