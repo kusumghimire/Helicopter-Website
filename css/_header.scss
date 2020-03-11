@@ -9,18 +9,19 @@
       height: 100%;
     }
   }
-  #navbarSupportedContent{
+  #navbarSupportedContent {
     justify-content: flex-end;
-    .navbar-nav{
-      .nav-item{
-        .nav-link{
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
           color: white;
           font-size: 18px;
           margin: 5px 20px;
-          &:hover{
-           background-color:#0264ab;
-           border-radius: 10px;
-           padding: 8px 20px;
+          &:hover {
+            background-color: rgba(180, 180, 180, 0.74);
+            opacity: 70%;
+            border-radius: 10px;
+            padding: 8px 20px;
           }
         }
       }
@@ -29,28 +30,32 @@
 }
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .navbar .navbar-brand {
-    color: #fff;
+  color: #fff;
 }
-
 
 /* Change navbar styling on scroll */
 .navbar.active {
-    background: #fff;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.active .nav-link {
-    color: #555;
+  color: #555;
 }
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-    color: #555;
-    text-decoration: none;
+  color: #555;
+  text-decoration: none;
 }
-
+.navbar.navbar-expand-lg.fixed-top.py-3 {
+  background-color: rgba(2, 100, 171, 0.74);
+}
+.navbar-menu {
+  color: white;
+}
