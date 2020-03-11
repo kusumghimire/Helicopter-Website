@@ -29,3 +29,7 @@ body{
 // @import "page-events";
 // @import "blog";
 // @import "keyframes";
+
+@media(max-width:768px){
+  @import "768_md/banner";
+}
