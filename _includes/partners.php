@@ -62,6 +62,7 @@
             <!-- <img src="./img/partner-4.png"> -->
           </div>
         </div>
+        <button class="btn">become a partner</button>
       </div>
     </div>
   </div>
