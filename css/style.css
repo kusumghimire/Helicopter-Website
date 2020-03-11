@@ -515,13 +515,20 @@ footer .section-footer .footer-links .copyright {
   height: 100%;
 }
 
-.partner-section .partner-gallery .container .row .btn,
-.partner-section .partner-gallery1 .container .row .btn {
-  font-family: 'Josefin Sans', sans-serif;
+.partner-section .btn.partner-btn {
+  font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   background-color: #0264ab;
   font-size: 16px;
   border-radius: 5px;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40%;
+  margin-bottom: 2em;
 }
 /*# sourceMappingURL=style.css.map */

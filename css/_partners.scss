@@ -17,16 +17,21 @@
             height: 100%;
           }
         }
-        .btn {
-          font-family: 'Josefin Sans', sans-serif;
-          text-transform: uppercase;
-          background-color: #0264ab;
-          font-size: 16px;
-          border-radius: 5px;
-          color: white;
-        }
       }
     }
+  }
+  .btn.partner-btn {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    background-color: #0264ab;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    margin-bottom: 2em;
+   
   }
 }
 //   .featured-content,
