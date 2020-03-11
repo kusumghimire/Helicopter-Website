@@ -157,6 +157,17 @@ body {
   right: -11px;
 }
 
+.banner button {
+  background: #F65C78;
+  position: absolute;
+  bottom: 205px;
+  right: 100px;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 24px;
+  color: #fff;
+}
+
 .navbar.navbar-expand-lg.fixed-top.py-3.active {
   background: #586f86;
 }
@@ -606,13 +617,23 @@ footer .section-footer .footer-links .copyright {
         -ms-flex-direction: column;
             flex-direction: column;
     position: absolute;
-    top: -88px;
-    right: -11px;
+    top: -20px;
+    right: -40px;
   }
   .banner .banner-contents .vertical-navbar .social-icon {
     position: absolute;
     top: -30px;
     right: -11px;
+  }
+  .banner button {
+    background: #F65C78;
+    position: absolute;
+    bottom: 92px;
+    right: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 24px;
+    color: #fff;
   }
   .navbar.navbar-expand-lg.fixed-top.py-3.active {
     background: #586f86;

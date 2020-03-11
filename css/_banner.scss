@@ -57,6 +57,16 @@
       }
     }
   }
+  button {
+    background: #F65C78;
+    position: absolute;
+    bottom: 205px;
+    right: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 24px;
+    color: #fff;
+  }
 }
 .navbar.navbar-expand-lg.fixed-top.py-3.active{
   background: #586f86;

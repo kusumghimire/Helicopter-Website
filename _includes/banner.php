@@ -37,4 +37,11 @@
       </ul>
     </div>
   </div>
+  <button>
+  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
+  <text id="phone" transform="matrix(-1, 0, 0, 1, 12, 11)" fill="#fff" font-size="12" font-family="FontAwesome5Pro-Solid, 'Font Awesome 5 Pro'" letter-spacing="0.1em" opacity="0.93"><tspan x="0" y="0">PHONE</tspan></text>
+</svg>
+ EMERGENCY NUMBER<br>
+ +977 9841 XXXXXX
+  </button>
 </section>
