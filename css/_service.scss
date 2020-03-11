@@ -29,6 +29,7 @@
         margin: auto 15px 0 0;
         border-radius: 10px;
         overflow: hidden;
+        position: relative;
         img{
           height: 100%;
           width: 100%;
@@ -37,6 +38,16 @@
                 -webkit-transform: scale(0.08);
                 transform: scale(1.2);
               }
+        }
+        .service-content{
+  position: absolute;
+  bottom: 0;
+  left: 0.5em;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+
         }
       }
     }

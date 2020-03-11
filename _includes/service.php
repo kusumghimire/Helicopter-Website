@@ -37,7 +37,7 @@
         <div class="service-img">
           <img src="./img/jungle.png">
           <span class="service-content">aerial photography </span>
-        </div>
+        </div> 
       </div>
     </div>
   </section> <!-- section gallery end                                    s here -->
