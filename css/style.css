@@ -506,7 +506,7 @@ footer .section-footer .footer-links .copyright {
 .partner-section .partner-gallery1 .container .row .partner-img {
   margin: 40px auto;
   width: 150px;
-  height: 120px;
+  height: auto;
 }
 
 .partner-section .partner-gallery .container .row .partner-img img,
