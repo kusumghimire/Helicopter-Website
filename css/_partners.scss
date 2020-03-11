@@ -17,9 +17,14 @@
             height: 100%;
           }
         }
-        .btn{
+        .btn {
+          font-family: 'Josefin Sans', sans-serif;
           text-transform: uppercase;
-        background-color: blue;        }
+          background-color: #0264ab;
+          font-size: 16px;
+          border-radius: 5px;
+          color: white;
+        }
       }
     }
   }

@@ -517,7 +517,11 @@ footer .section-footer .footer-links .copyright {
 
 .partner-section .partner-gallery .container .row .btn,
 .partner-section .partner-gallery1 .container .row .btn {
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
-  background-color: blue;
+  background-color: #0264ab;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
