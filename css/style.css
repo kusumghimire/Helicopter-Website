@@ -695,7 +695,7 @@ footer .section-footer .footer-links .copyright {
   }
   .service-section {
     position: relative;
-    height: 85vh;
+    height: 50vh;
     width: 100%;
     background-image: url("../img/section-img.png");
     background-repeat: no-repeat;
@@ -707,6 +707,7 @@ footer .section-footer .footer-links .copyright {
   .service-section h1 {
     color: white;
     margin-top: 60px;
+    font-size: 1.5em;
   }
   .service-section p {
     color: white;
@@ -727,10 +728,10 @@ footer .section-footer .footer-links .copyright {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    height: 230px;
+    height: 180px;
     background: gray;
-    width: 18%;
-    margin: auto 15px 0 0;
+    width: 15%;
+    margin: auto 15px 25px 20px;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
