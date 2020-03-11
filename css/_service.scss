@@ -14,13 +14,13 @@
   p {
     color: white;
   }
-  .service-gallery{
+  .service-gallery {
     position: absolute;
     bottom: -40px;
     width: 100%;
-    .row{
+    .row {
       display: flex;
-      .service-img{
+      .service-img {
         display: flex;
         flex-wrap: wrap;
         height: 230px;
@@ -30,24 +30,22 @@
         border-radius: 10px;
         overflow: hidden;
         position: relative;
-        img{
+        img {
           height: 100%;
           width: 100%;
           transition: 0.4s ease;
-              &:hover{
-                -webkit-transform: scale(0.08);
-                transform: scale(1.2);
-              }
+          &:hover {
+            -webkit-transform: scale(0.08);
+            transform: scale(1.2);
+          }
         }
-        .service-content{
-  position: absolute;
-  bottom: 0;
-  left: 0.5em;
-  color: white;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: 600;
-
+        .service-content {
+          position: absolute;
+          bottom: 0;
+          left: 0.5em;
+          color: white;
+          text-transform: uppercase;
+          font-size: 15px;
         }
       }
     }

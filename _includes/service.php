@@ -20,7 +20,7 @@
       <div class="row">
         <div class="service-img">
           <img src="./img/img-1.png">
-          <span class="service-content">rescue and evac  uation</span>
+          <span class="service-content">rescue and evauation</span>
         </div> 
         <div class="service-img">
           <img src="./img/img-2.png">
