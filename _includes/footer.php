@@ -15,7 +15,11 @@
         </div>
       </div>
       <div class="footer-icons">
-
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"></a><i class="fab fa-instagram"></i></li>
+        </ul>
       </div>
     </div>
   </div>

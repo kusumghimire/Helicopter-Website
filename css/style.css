@@ -438,6 +438,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #fff;
+  margin-right: 15px;
+  padding: 20px;
 }
 
 .expert-section .row .expert-video .expert-absolute .expert-icon .about-icons figure {
@@ -753,6 +756,46 @@ footer .section-footer .footer-links .copyright {
     color: white;
     text-transform: uppercase;
     font-size: 15px;
+  }
+  .fleet-section {
+    margin-top: 90px;
+  }
+  .fleet-section .row .fleet-title {
+    font-size: 1.5rem;
+  }
+  .fleet-section .row .banner {
+    height: 330px;
+    width: 100%;
+  }
+  .fleet-section .row .banner img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .fleet-section .row .fleet-contents span {
+    color: #6ca4cd;
+  }
+  .fleet-section .row .fleet-contents p {
+    width: 70%;
+    line-height: 28px;
+  }
+  .fleet-section .row .fleet-contents hr {
+    height: 8px;
+    background: #0264ab;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 0;
+  }
+  .fleet-section .row .fleet-contents .table-borderless {
+    background-color: white;
+  }
+  .fleet-section .row .fleet-contents .table-borderless td {
+    text-align: center;
+  }
+  .fleet-section .row .fleet-contents .fleet-search {
+    color: #65a0cb;
+    text-transform: capitalize;
+    margin-left: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
