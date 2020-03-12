@@ -42,6 +42,10 @@ body {
   padding: 8px 20px;
 }
 
+.navbar.navbar-expand-lg.fixed-top.py-3.active {
+  background-color: rgba(2, 100, 171, 0.74);
+}
+
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   color: #fff;
@@ -71,10 +75,6 @@ body {
 
 .navbar-menu {
   color: white;
-}
-
-.navbar.navbar-expand-lg.fixed-top.py-3.active {
-  background-color: rgba(2, 100, 171, 0.74);
 }
 
 .banner {
@@ -514,6 +514,15 @@ footer .section-footer .footer-links .copyright {
   color: white;
 }
 
+footer .section-footer .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 footer .section-footer .footer-icons ul {
   list-style: none;
   display: -webkit-box;
@@ -523,6 +532,7 @@ footer .section-footer .footer-icons ul {
 
 footer .section-footer .footer-icons a {
   text-decoration: none;
+  margin: auto 10px;
 }
 
 .partner-section {
@@ -808,6 +818,61 @@ footer .section-footer .footer-icons a {
     color: #65a0cb;
     text-transform: capitalize;
     margin-left: 100px;
+  }
+  .navbar-expand-lg {
+    padding: 20px 45px;
+  }
+  .navbar-expand-lg .navbar-brand {
+    width: 45px;
+    height: auto;
+  }
+  .navbar-expand-lg .navbar-brand img {
+    width: 100%;
+    height: 100%;
+  }
+  .navbar-expand-lg #navbarSupportedContent {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .navbar-expand-lg #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 18px;
+    margin: 5px 20px;
+  }
+  .navbar-expand-lg #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(180, 180, 180, 0.74);
+    opacity: 70%;
+    border-radius: 10px;
+    padding: 8px 20px;
+  }
+  .navbar.navbar-expand-lg.fixed-top.py-3.active {
+    background-color: rgba(2, 100, 171, 0.74);
+  }
+  .navbar .nav-link:hover,
+  .navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+  .navbar .navbar-brand {
+    color: #fff;
+  }
+  /* Change navbar styling on scroll */
+  .navbar.active {
+    background: #fff;
+    -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .navbar.active .nav-link {
+    color: #555;
+  }
+  .navbar.active .nav-link:hover,
+  .navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+  }
+  .navbar-menu {
+    color: white;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -26,7 +26,7 @@
   <?php include '_includes/expert.php';?>
   <?php include '_includes/partners.php';?>
   <?php include '_includes/footer.php';?>
-  <!-- <script src="/js/script.js"></script>
+  <!-- <script src="//script.js"></script>
  <script>
  </script> -->
   <!-- Optional JavaScript -->

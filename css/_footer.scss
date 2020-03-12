@@ -25,12 +25,15 @@ footer {
       }
     }
     .footer-icons{
+      display: flex;
+      align-items: center;
       ul{
         list-style: none;
         display: flex;
       }
       a{
      text-decoration: none;
+     margin: auto 10px;
       }
     }
   }
