@@ -513,6 +513,17 @@ footer .section-footer .footer-links .copyright {
   color: white;
 }
 
+footer .section-footer .footer-icons ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .section-footer .footer-icons a {
+  text-decoration: none;
+}
+
 .partner-section {
   margin: 50px auto;
 }

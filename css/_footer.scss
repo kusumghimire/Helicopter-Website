@@ -19,11 +19,18 @@ footer {
           }
         }
       }
-      .copyright{
-          color: white;
+      .copyright {
+        color: white;
       }
-
-
+    }
+    .footer-icons{
+      ul{
+        list-style: none;
+        display: flex;
+      }
+      a{
+     text-decoration: none;
+      }
     }
   }
 }
