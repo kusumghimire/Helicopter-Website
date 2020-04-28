@@ -18,6 +18,7 @@
 </head>
 
 <body>
+<!-- Kusum mero gf ho... lol --> 
   <?php include '_includes/header.php';?>
   <?php include '_includes/banner.php';?>
   <?php include '_includes/about-us.php';?>
